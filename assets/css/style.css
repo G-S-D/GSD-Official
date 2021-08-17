@@ -37,6 +37,7 @@ body {
     background-color: transparent !important;
     color: whitesmoke !important;
     opacity: 1;
+    width: 100% !important;
 }
 
 
@@ -340,4 +341,11 @@ border: 0px;
     float: right;
     color:#ffd000;
     font-family: 'Mulish', sans-serif;
+}
+
+.BRAND{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
 }
