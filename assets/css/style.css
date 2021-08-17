@@ -1,13 +1,13 @@
 /*  Custom styles  */
 
-.MAIN-WRAPPER{
+.MAIN-WRAPPER {
     /* width: 100%;
     height: 100vh;
     background: url('/assets/images/city-wallpaper.jpg') top center;
     background-size: cover;
     position: relative; */
 
-    position: relative; 
+    position: relative;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -15,23 +15,23 @@
     justify-content: space-between;
 }
 
-.MAIN-WRAPPER::before{
-        content: "";
-      background-image: url('/assets/images/city-wallpaper.jpg');
-      background-size: cover;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 0.5;
+.MAIN-WRAPPER::before {
+    content: "";
+    background-image: url('/assets/images/city-wallpaper.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
 }
 
-body{
+body {
     background-color: black;
 }
 
-.NAVBAR{
+.NAVBAR {
     background-color: transparent !important;
     color: whitesmoke !important;
     opacity: 1;
@@ -41,7 +41,7 @@ body{
 /* Custom Search bar */
 
 #custom-search-input {
-    margin:0;
+    margin: 0;
     margin-top: 10px;
     padding: 0;
 }
@@ -72,11 +72,11 @@ body{
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    color:#D9230F;
+    color: #D9230F;
 }
 
-.search-query:focus + button {
-    z-index: 3;   
+.search-query:focus+button {
+    z-index: 3;
 }
 
 
@@ -85,6 +85,7 @@ body{
 */
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -132,13 +133,13 @@ a:focus {
 ----------------------------------------------------- */
 
 #sidebar {
-    width: 250px;
+    width: 50%;
     position: fixed;
     top: 0;
-    left: -250px;
+    left: -50%;
     height: 100vh;
     z-index: 999;
-    background: #7386D5;
+    background: #000000;
     color: #fff;
     transition: all 0.3s;
     overflow-y: scroll;
@@ -154,7 +155,7 @@ a:focus {
     height: 35px;
     line-height: 35px;
     text-align: center;
-    background: #7386D5;
+    background: #000000;
     position: absolute;
     top: 10px;
     right: 10px;
@@ -165,8 +166,8 @@ a:focus {
 }
 
 #dismiss:hover {
-    background: #fff;
-    color: #7386D5;
+    background: rgb(0, 0, 0);
+    color: #fffb00;
 }
 
 .overlay {
@@ -179,6 +180,7 @@ a:focus {
     opacity: 0;
     transition: all 0.5s ease-in-out;
 }
+
 .overlay.active {
     display: block;
     opacity: 1;
@@ -186,11 +188,12 @@ a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #6d7fcc;
+    background: #000000;
+    color: white !important;
 }
 
 #sidebar ul.components {
-    padding: 20px 0;
+    padding: 20px 150px;
     border-bottom: 1px solid #47748b;
 }
 
@@ -201,19 +204,22 @@ a:focus {
 
 #sidebar ul li a {
     padding: 10px;
-    font-size: 1.1em;
+    font-size: 2.2em;
+    font-family: 'Playfair Display',
+        serif;
+    font-weight: bold;
     display: block;
 }
 
 #sidebar ul li a:hover {
-    color: #7386D5;
-    background: #fff;
+    color: #ffd000;
+    /* background: #ffd000; */
 }
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
-    color: #fff;
-    background: #6d7fcc;
+    color: rgb(255, 217, 0);
+    background: #000000;
 }
 
 a[data-toggle="collapse"] {
