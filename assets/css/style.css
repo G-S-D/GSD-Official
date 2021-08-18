@@ -61,7 +61,7 @@ body {
   padding-left: 4px \9;
   /* IE7-8 doesn't have border-radius, so don't indent the padding */
 
-  /* margin-bottom: 0;
+/* margin-bottom: 0;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -70,13 +70,13 @@ body {
 /* #custom-search-input button {
   border: 0;
   background: none; */
-  /** belows styles are working good */
-  /* padding: 2px 5px;
+/** belows styles are working good */
+/* padding: 2px 5px;
   margin-top: 2px;
   position: relative;
   left: -28px; */
-  /* IE7-8 doesn't have border-radius, so don't indent the padding */
-  /* margin-bottom: 0;
+/* IE7-8 doesn't have border-radius, so don't indent the padding */
+/* margin-bottom: 0;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -87,49 +87,49 @@ body {
   z-index: 3;
 }  */
 
-.SEARCH{
-    margin-left: 600px;
-    margin-top: -50px;
+.SEARCH {
+  margin-left: 600px;
+  margin-top: -50px;
 }
 
 #custom-search-input {
-    margin:0;
-    margin-top: 10px;
-    padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
 }
 
 #custom-search-input .search-query {
-    padding-right: 3px;
-    padding-right: 4px \9;
-    padding-left: 3px;
-    padding-left: 4px \9;
-    background-color: transparent;
-    color: white;
-    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+  padding-right: 3px;
+  padding-right: 4px \9;
+  padding-left: 3px;
+  padding-left: 4px \9;
+  background-color: transparent;
+  color: white;
+  /* IE7-8 doesn't have border-radius, so don't indent the padding */
 
-    margin-bottom: 0;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+  margin-bottom: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
 }
 
 #custom-search-input button {
-    border: 0;
-    background: none;
-    /** belows styles are working good */
-    padding: 2px 5px;
-    margin-top: 2px;
-    position: relative;
-    left: -28px;
-    /* IE7-8 doesn't have border-radius, so don't indent the padding */
-    margin-bottom: 0;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+  border: 0;
+  background: none;
+  /** belows styles are working good */
+  padding: 2px 5px;
+  margin-top: 2px;
+  position: relative;
+  left: -28px;
+  /* IE7-8 doesn't have border-radius, so don't indent the padding */
+  margin-bottom: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
 }
 
-.search-query:focus + button {
-    z-index: 3;   
+.search-query:focus+button {
+  z-index: 3;
 }
 
 
@@ -261,7 +261,7 @@ a:focus {
   /* background: #ffd000; */
 }
 
-#sidebar ul li.active > a,
+#sidebar ul li.active>a,
 a[aria-expanded="true"] {
   color: rgb(255, 217, 0);
   background: #000000;
@@ -337,7 +337,9 @@ bottom: 25%;
 
 border: 2px solid #FFFFFF; */
 
-padding: 2px;
+  background-color: transparent;
+  border: 0px;
+  padding: 2px;
   background-color: transparent;
   border: 0px;
 }
@@ -349,6 +351,13 @@ padding: 2px;
   padding-right: 150px !important;
 
   font-family: "Mulish", sans-serif;
+}
+
+.SIDEBAR-TEXT {
+  font-weight: lighter !important;
+  font-size: 18px;
+  padding-left: 80px;
+  padding-right: 150px !important;
 }
 
 .SIDEBAR-DETAILS {
@@ -367,12 +376,53 @@ padding: 2px;
   font-weight: lighter;
 }
 
+.SIDEBAR-DETAILS {
+  font-weight: lighter !important;
+  font-size: 20px;
+  padding-left: 80px;
+  padding-right: 150px !important;
+  font-family: 'Mulish', sans-serif;
+  margin: 0px !important;
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+}
+
+.NAV-NUM {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
 .PUZZLE {
   width: 30%;
   height: 30%;
   float: right;
-  margin-top: 100px;
-  margin-right: 30px;
+  margin-top: 90px;
+  margin-right: 40px;
+}
+
+.rotate {
+  font-size: 10px;
+  margin-top: 120px;
+  margin-right: -150px;
+  transform: rotate(+90deg);
+  float: right;
+  color: #ffd000;
+  font-family: 'Mulish', sans-serif;
+}
+
+.BRAND {
+  color: whitesmoke;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+}
+
+.PUZZLE {
+  width: 30%;
+  height: 30%;
+  float: right;
+  margin-top: 80px;
+  margin-right: 80px;
 }
 
 .rotate {
@@ -393,21 +443,21 @@ padding: 2px;
 }
 
 .SOL-CONTAINER {
-    position: absolute;
-    margin-top: 100px;
-    margin-left: 50px;
-    max-width: 500px;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 50px;
+  max-width: 500px;
 }
 
-.SOL-TEXT-BIG{
-color: white;
+.SOL-TEXT-BIG {
+  color: white;
   font-size: 40px;
   font-weight: bold;
   font-family: "Playfair Display", serif !important;
 }
 
-.SOL-LINKS{
-    font-size: 22px;
-    font-family: "Playfair Display", serif !important;
-    color: white !important;
+.SOL-LINKS {
+  font-size: 22px;
+  font-family: "Playfair Display", serif !important;
+  color: white !important;
 }
