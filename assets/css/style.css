@@ -147,7 +147,8 @@ body {
     width: 250px !important; */
   margin-left: -20px !important;
 }
-search-query:focus + button {
+
+search-query:focus+button {
   z-index: 3;
 }
 
@@ -279,7 +280,7 @@ a:focus {
   /* background: #ffd000; */
 }
 
-#sidebar ul li.active > a,
+#sidebar ul li.active>a,
 a[aria-expanded="true"] {
   color: rgb(255, 217, 0);
   background: #000000;
@@ -522,3 +523,5 @@ border: 2px solid #FFFFFF; */
   /* margin-top: 15px; */
   padding-top: 0px !important;
 }
+
+.SERVICES-GARNER {}
