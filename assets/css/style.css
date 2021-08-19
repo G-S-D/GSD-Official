@@ -88,8 +88,8 @@ body {
 }  */
 
 .SEARCH {
-  margin-left: 600px;
-  margin-top: -70px;
+  margin-left: 120%;
+  margin-top: -15%;
 }
 
 #custom-search-input {
@@ -500,8 +500,8 @@ border: 2px solid #FFFFFF; */
 .card {
   color: white;
   background-color: rgb(26, 25, 25);
-  margin-left: 100px !important;
   align-content: center;
+  margin-left: 10%;
 }
 
 .pl-4,
