@@ -1,9 +1,9 @@
 /*  Custom styles  */
-
+/* 
 * {
   padding: 0;
   margin: 0;
-}
+} */
 
 .MAIN-WRAPPER {
   /* width: 100%;
@@ -88,8 +88,8 @@ body {
 }  */
 
 .SEARCH {
-  margin-left: 600px;
-  margin-top: -50px;
+  margin-left: 800px;
+  margin-top: -70px;
 }
 
 #custom-search-input {
@@ -101,7 +101,7 @@ body {
 #custom-search-input .search-query {
   padding-right: 3px;
   padding-right: 4px \9;
-  padding-left: 3px;
+  /* padding-left: 3px; */
   padding-left: 4px \9;
   background-color: transparent;
   color: white;
@@ -120,7 +120,7 @@ body {
   padding: 2px 5px;
   margin-top: 2px;
   position: relative;
-  left: -28px;
+  left: -30px;
   /* IE7-8 doesn't have border-radius, so don't indent the padding */
   margin-bottom: 0;
   -webkit-border-radius: 3px;
@@ -128,10 +128,28 @@ body {
   border-radius: 3px;
 }
 
-.search-query:focus+button {
-  z-index: 3;
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.975rem 0.75rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #ffffff;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+.fa-search {
+  /* height: 250px !important;
+    width: 250px !important; */
+  margin-left: -20px !important;
+}
+search-query:focus + button {
+  z-index: 3;
+}
 
 /*
     DEMO STYLE
@@ -217,13 +235,13 @@ a:focus {
 }
 
 .overlay {
-  display: none;
+  /* display: none; */
   position: fixed;
   width: 100vw;
   height: 100vh;
   background: rgba(0, 0, 0, 0.7);
   z-index: 998;
-  opacity: 0;
+  /* opacity: 0; */
   transition: all 0.5s ease-in-out;
 }
 
@@ -261,7 +279,7 @@ a:focus {
   /* background: #ffd000; */
 }
 
-#sidebar ul li.active>a,
+#sidebar ul li.active > a,
 a[aria-expanded="true"] {
   color: rgb(255, 217, 0);
   background: #000000;
@@ -381,7 +399,7 @@ border: 2px solid #FFFFFF; */
   font-size: 20px;
   padding-left: 80px;
   padding-right: 150px !important;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   margin: 0px !important;
   padding-bottom: 0px !important;
   padding-top: 0px !important;
@@ -407,14 +425,14 @@ border: 2px solid #FFFFFF; */
   transform: rotate(+90deg);
   float: right;
   color: #ffd000;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 
 .BRAND {
   color: whitesmoke;
   font-size: 30px;
   font-weight: bold;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .PUZZLE {
@@ -428,11 +446,14 @@ border: 2px solid #FFFFFF; */
 .rotate {
   font-size: 10px;
   margin-top: 100px;
+  padding-top: 5px;
   margin-right: -150px;
   transform: rotate(+90deg);
   float: right;
   color: #ffd000;
   font-family: "Mulish", sans-serif;
+  /* overflow: visible !important;
+  z-index: z !important; */
 }
 
 .BRAND {
@@ -460,4 +481,44 @@ border: 2px solid #FFFFFF; */
   font-size: 22px;
   font-family: "Playfair Display", serif !important;
   color: white !important;
+}
+
+/* APPROACH CONTAINER */
+
+.Approach-para-expl {
+  color: gray;
+  font-size: 22px;
+  padding-right: 150px !important;
+  padding-top: 20px;
+  font-family: "Mulish", sans-serif;
+}
+
+.approach-side-txt {
+  font-family: "Playfair Display", serif !important;
+}
+
+.card {
+  color: white;
+  background-color: rgb(26, 25, 25);
+  margin-left: 100px !important;
+  align-content: center;
+}
+
+.pl-4,
+.px-4 {
+  padding-left: 1.5rem !important;
+  margin-left: 10rem;
+}
+
+.card-text {
+  padding-left: 1.5rem !important;
+  margin-left: 7rem;
+  margin-top: 20px;
+}
+
+.card-text2 {
+  padding-left: 1.5rem !important;
+  margin-left: 7rem;
+  /* margin-top: 15px; */
+  padding-top: 0px !important;
 }
