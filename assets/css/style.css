@@ -24,7 +24,7 @@
 
 .MAIN-WRAPPER::before {
   content: "";
-  background-image: url("/assets/images/city-wallpaper.jpg");
+  background-image: url("../images/city-wallpaper.jpg");
   background-size: cover;
   position: absolute;
   top: 0px;
