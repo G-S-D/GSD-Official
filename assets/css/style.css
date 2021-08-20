@@ -552,4 +552,6 @@ strong {
   font-weight: bolder !important;
 }
 
-.ENTIRE-NETWORK-SECTION {}
+.ENTIRE-NETWORK-SECTION {
+  margin-left: 200px;
+}
