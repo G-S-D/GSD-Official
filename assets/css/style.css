@@ -331,6 +331,7 @@ a.article:hover {
   color: #fff !important;
 }
 
+
 /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */
@@ -537,4 +538,19 @@ border: 2px solid #FFFFFF; */
   background-color: #000000 !important;
 
   align-content: center;
+}
+
+.MULIS {
+
+  font-family: "Mulish", sans-serif !important;
+  font-style: normal !important;
+  font-size: 18px;
+  font-weight: 300 !important;
+
+
+
+}
+
+strong {
+  font-weight: bolder !important;
 }
