@@ -545,12 +545,11 @@ border: 2px solid #FFFFFF; */
   font-family: "Mulish", sans-serif !important;
   font-style: normal !important;
   font-size: 18px;
-  font-weight: 300 !important;
-
-
 
 }
 
 strong {
   font-weight: bolder !important;
 }
+
+.ENTIRE-NETWORK-SECTION {}
