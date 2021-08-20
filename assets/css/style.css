@@ -501,7 +501,6 @@ border: 2px solid #FFFFFF; */
 .card {
   color: white;
   background-color: rgb(26, 25, 25);
-  margin-left: 100px !important;
   align-content: center;
 }
 
@@ -524,4 +523,12 @@ border: 2px solid #FFFFFF; */
   padding-top: 0px !important;
 }
 
-.SERVICES-GARNER {}
+.COMPANIES {
+  height: 50px !important;
+  width: 50px !important;
+}
+
+.PADDING-ZERO {
+  padding: 0px !important;
+  margin: 0% !important;
+}
