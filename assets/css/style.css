@@ -495,7 +495,6 @@ border: 2px solid #FFFFFF; */
   font-family: "Mulish", sans-serif;
 }
 
-
 .approach-side-txt {
   font-family: "Playfair Display", serif !important;
 }
@@ -558,9 +557,5 @@ strong {
 }
 
 .ENTIRE-NETWORK-SECTION {
-  padding-left: 100px !important;
-}
-
-.SAFFRON {
-  color: #ffd000 !important;
+  margin-left: 200px;
 }
