@@ -44,6 +44,7 @@ body {
   color: whitesmoke !important;
   opacity: 1;
   min-width: 100% !important;
+  padding-left: 3.2% !important;
 }
 
 /* Custom Search bar */
@@ -435,6 +436,7 @@ border: 2px solid #FFFFFF; */
   font-size: 30px;
   font-weight: bold;
   font-family: "Playfair Display", serif;
+  padding-right: 5% !important;
 }
 
 .PUZZLE {
@@ -489,14 +491,15 @@ border: 2px solid #FFFFFF; */
 
 .Approach-para-expl {
   color: gray;
-  font-size: 22px;
-  padding-right: 150px !important;
+  font-size: 32px;
+  padding-right: 110px !important;
   padding-top: 20px;
   font-family: "Mulish", sans-serif;
 }
 
 .approach-side-txt {
   font-family: "Playfair Display", serif !important;
+  
 }
 
 .card {
@@ -558,4 +561,43 @@ strong {
 
 .ENTIRE-NETWORK-SECTION {
   margin-left: 200px;
+  
 }
+
+
+#contact-form input, textarea {
+  max-width: 90%;
+  margin: 15px;
+  padding: 4px 10px;
+  border: 0px solid transparent;
+  border-bottom: 2px solid white;
+  color: #d9dcdd;
+  background: transparent;
+  width: 90%;
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+.FAMILY-PLAYFAIR{
+  font-family: "Playfair Display", serif !important;
+}
+
+.FAMILY-MULISH{
+  font-family: "Mulish", sans-serif;
+}
+
+.footset{
+  padding-left: -50px !important;
+}
+
+.CONTACT_FOOT{
+  margin-right: 0px !important;
+  padding-left: 5% !important;
+  width:100% !important;
+  padding-right: 4% !important;
+  margin-top: 5% !important;
+  }
+
+  .FOOT_SET{
+    margin-left:-2% !important;
+  }
