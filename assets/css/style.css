@@ -607,3 +607,7 @@ textarea {
   border-bottom:1px solid white; 
   text-decoration: none;
 }
+
+.APPROACH{
+  min-height: 300px !important;
+}
