@@ -89,7 +89,7 @@ body {
 }  */
 
 .SEARCH {
-  margin-left: 800px;
+  margin-left: 160%;
   margin-top: -70px;
 }
 
@@ -483,7 +483,7 @@ border: 2px solid #FFFFFF; */
 
 .SOL-LINKS {
   font-size: 22px;
-  font-family: "Playfair Display", serif !important;
+  font-family: "Mulish", sans-serif !important;
   color: white !important;
 }
 
@@ -491,7 +491,7 @@ border: 2px solid #FFFFFF; */
 
 .Approach-para-expl {
   color: gray;
-  font-size: 32px;
+  font-size: 28px;
   padding-right: 110px !important;
   padding-top: 20px;
   font-family: "Mulish", sans-serif;
@@ -601,4 +601,9 @@ textarea {
 
 .FOOT_SET {
   margin-left: -2% !important;
+}
+
+.SOL-CONTAINER u{
+  border-bottom:1px solid white; 
+  text-decoration: none;
 }
