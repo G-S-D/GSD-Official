@@ -21,6 +21,7 @@
   min-width: 100% !important;
   padding-left: 3.2% !important;
 }
+
 body {
   background-color: black;
 }
@@ -156,7 +157,7 @@ a:focus {
   /* background: #ffd000; */
 }
 
-#sidebar ul li.active > a,
+#sidebar ul li.active>a,
 a[aria-expanded="true"] {
   color: rgb(255, 217, 0);
   background: #000000;
@@ -339,4 +340,37 @@ border: 2px solid #FFFFFF; */
   font-size: 30px;
   font-weight: bold;
   font-family: "Playfair Display", serif !important;
+}
+
+.FAMILY-PLAYFAIR {
+  font-family: "Playfair Display", serif !important;
+}
+
+.FAMILY-MULISH {
+  font-family: "Mulish", sans-serif;
+}
+
+.footset {
+  padding-left: -50px !important;
+}
+
+.CONTACT_FOOT {
+  margin-right: 0px !important;
+  padding-left: 5% !important;
+  width: 100% !important;
+  padding-right: 4% !important;
+  margin-top: 5% !important;
+}
+
+.FOOT_SET {
+  margin-left: -2% !important;
+}
+
+.SOL-CONTAINER u {
+  border-bottom: 1px solid white;
+  text-decoration: none;
+}
+
+.APPROACH {
+  min-height: 300px !important;
 }

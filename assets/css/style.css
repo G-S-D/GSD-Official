@@ -491,8 +491,8 @@ border: 2px solid #FFFFFF; */
 
 .Approach-para-expl {
   color: gray;
-  font-size: 28px;
-  padding-right: 110px !important;
+  font-size: 24px;
+  /* padding-right: 110px !important; */
   padding-top: 20px;
   font-family: "Mulish", sans-serif;
 }
@@ -603,11 +603,11 @@ textarea {
   margin-left: -2% !important;
 }
 
-.SOL-CONTAINER u{
-  border-bottom:1px solid white; 
+.SOL-CONTAINER u {
+  border-bottom: 1px solid white;
   text-decoration: none;
 }
 
-.APPROACH{
+.APPROACH {
   min-height: 300px !important;
 }
