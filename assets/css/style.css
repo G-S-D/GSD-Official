@@ -493,7 +493,7 @@ border: 2px solid #FFFFFF; */
   color: gray;
   font-size: 24px;
   /* padding-right: 110px !important; */
-  padding-top: 20px;
+  padding-top: 3.5%;
   font-family: "Mulish", sans-serif;
 }
 
@@ -612,8 +612,8 @@ textarea {
   min-height: 400px !important;
 }
 
-.Approach-container u{
-  
+.Approach-container u {
+
   border-bottom: 1px solid #FFC107;
   padding-bottom: 1.5% !important;
   text-decoration: none;
